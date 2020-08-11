@@ -22,8 +22,7 @@ const createFareMultiplier = int => fare => fare * int;
 
 const fareDoubler = fare => createFareMultiplier(2)(fare);
 
-
-const fareTripler= fare => createFareMultiplier(3)(fare);
+const fareTripler = fare => createFareMultiplier(3)(fare);
 
 const selectDifferentDrivers = (arrayOfDrivers, theReturnFunction) => {
   return theReturnFunction(arrayOfDrivers);
